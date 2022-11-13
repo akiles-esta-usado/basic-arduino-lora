@@ -13,7 +13,7 @@ static char msg[MSG_LEN] = "\n";
 
 void CAPTURE_printCapture()
 {
-  snprintf(msg, MSG_LEN, "  { %s, %d }", capture.GPS_location, capture.CS_charge);
+  snprintf(msg, MSG_LEN, "  { %s, %lu }", capture.GPS_location, capture.CS_charge);
 
   Serial.println(msg);
   return;
