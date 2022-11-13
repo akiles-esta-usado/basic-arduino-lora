@@ -34,6 +34,6 @@ void loop()
   LORA_sendCapture();
 
 
-  delay(10000); // 10 seconds of awaiting
+  delay(2000); // awaiting bewteen captures
   Serial.println("");
 }

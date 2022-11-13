@@ -2,6 +2,8 @@
 #include "lora.h"
 #include <capture.h>
 
+//#include <Arduino_LoRaWAN_ttn.h>
+
 void LORA_init()
 {
     Serial.println("== LORA_init begin ==");
