@@ -1,7 +1,7 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-void blinky_init(int period);
-void blinky();
+void UTILS_init(int period);
+void UTILS_blinky();
 
 #endif

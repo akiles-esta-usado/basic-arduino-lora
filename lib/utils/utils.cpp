@@ -4,13 +4,14 @@
 static int _period = 200;
 
 
-void blinky_init(int period)
+void UTILS_init(int period)
 {
+    pinMode(LED_BUILTIN, OUTPUT);
     _period = period;
 }
 
 
-void blinky()
+void UTILS_blinky()
 {
     digitalWrite(LED_BUILTIN, LOW);  // turn the LED off by making the voltage LOW
     delay(_period);                      // wait for a second
