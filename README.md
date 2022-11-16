@@ -27,5 +27,9 @@ Reemplazar `src_dir` con el subproyecto específico.
 
 ~~~ ini
 [platformio]
-src_dir = src/app
+src_dir = src/<ANY PROJECT>
+
+; Todo subproyecto debe tener su ".env" donde define bibliotecas a utilizar.
+; Revisar src/_template
+extra_configs = ${this.src_dir}/.env
 ~~~
